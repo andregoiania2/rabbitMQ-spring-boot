@@ -23,7 +23,7 @@ Para o consumer só precisa das configurações do application.properties e a an
 
 Para o produce necessita das mesma configurações usadas no consumer, mais uma que está no pacote config.
 
-para testar basta executar o comando <b>curl --location 'localhost:8080/teste' \
+Para testar basta executar o comando <b>curl --location 'localhost:8080/teste' \
 --header 'Content-Type: application/json' \
 --data '{
     "msg":"teste de envio"

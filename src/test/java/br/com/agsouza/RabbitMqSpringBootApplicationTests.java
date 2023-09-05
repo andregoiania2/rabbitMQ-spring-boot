@@ -8,6 +8,7 @@ class RabbitMqSpringBootApplicationTests {
 
 	@Test
 	void contextLoads() {
+	    RabbitMqSpringBootApplication.main(new String[]{});
 	}
 
 }
